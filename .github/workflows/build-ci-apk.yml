@@ -41,7 +41,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Clone PhiCommunity
-        run: git clone -b gh-pages https://github.com/Yuameshi/PhiCommunity ./www/
+        run: git clone -b gh-pages https://github.com/PhiGameRevive/PhiCommunityRevive ./www/
        
       - name: Setup Cordova
         uses: oxr463/setup-cordova@0.0.3
