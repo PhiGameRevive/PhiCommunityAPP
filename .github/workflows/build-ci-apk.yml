@@ -67,7 +67,7 @@ jobs:
         run: npm run build:debug
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v7
         with:
           name: PhiCommunity-CI-APK
           path: platforms/android/app/build/outputs/apk/
